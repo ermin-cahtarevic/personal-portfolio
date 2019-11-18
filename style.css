@@ -7,7 +7,7 @@
 /* navigation bar */
 
 .navbar {
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(236, 236, 236);
   justify-content: space-between;
   align-items: center;
   height: 100px;
@@ -111,6 +111,7 @@ main {
   align-items: center;
   flex-direction: column;
   color: rgb(58, 58, 58);
+  text-align: center;
 }
 
 .portfolio-title {
@@ -127,8 +128,64 @@ main {
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 300;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
+
+.project {
+  padding: 30px 10px;
+}
+
+.project div h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+hr {
+  width: 50px;
+  border: none;
+  border-top: 1px solid;
+  margin: 30px auto;
+}
+
+.project div div {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+
+.project div a,
+.project div button {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  padding: 15px 0;
+  border-radius: 4px;
+  color: rgb(32, 109, 182);
+  border: 2px solid rgb(32, 109, 182);
+  text-decoration-line: none;
+  font-size: 14px;
+  transition: all 0.5s ease-in-out;
+}
+
+.project div button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.project div a:hover,
+.project div button:hover {
+  background-color: rgb(32, 109, 182);
+  color: white;
+}
+
+.project-img img {
+  padding-top: 20px;
+  width: 100%;
+}
+
+
+
+
 
 @media only screen and (min-width: 720px) {
   .navbar ul {
