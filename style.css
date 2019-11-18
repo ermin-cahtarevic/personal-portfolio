@@ -57,12 +57,12 @@ main {
 }
 
 .bg-cover {
-  background: rgb(32, 109, 182) url(/images/big-bg.jpg) 50% 45% no-repeat fixed;
+  background: url(/images/big-bg.jpg) 50% 45% no-repeat fixed;
   background-size: 100%;
 }
 
 .main-heading {
-  background-color: rgba(32, 109, 182, 0.6);
+  background-color: rgba(32, 109, 182, 0.7);
   height: 500px;
   padding: 200px 0;
   align-items: center;
