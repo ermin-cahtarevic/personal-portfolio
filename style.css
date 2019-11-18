@@ -1,0 +1,95 @@
+/* common styling */
+
+.flex {
+  display: flex;
+}
+
+/* navigation bar */
+
+.navbar {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 50px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+.navbar > div a {
+  text-decoration-line: none;
+  font-size: 20px;
+  color: rgb(32, 109, 182);
+  font-weight: 700;
+  padding: 15px 20px 36px;
+}
+
+.navbar > div a:hover {
+  border-bottom: 3px solid rgb(32, 109, 182);
+}
+
+.navbar-list li a {
+  padding: 15px 28px 39px;
+  text-decoration-line: none;
+  color: rgb(32, 109, 182);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.navbar-list li a:hover {
+  border-bottom: 3px solid rgb(32, 109, 182);
+}
+
+/* main section */
+
+main {
+  padding-top: 100px;
+}
+
+.bg-cover {
+  background: rgb(32, 109, 182) url(/images/big-bg.jpg) 50% 45% no-repeat fixed;
+  background-size: 100%;
+}
+
+.main-heading {
+  background-color: rgba(32, 109, 182, 0.6);
+  height: 700px;
+  padding: 200px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-heading h1 {
+  color: white;
+  font-size: 60px;
+  padding: 30px;
+}
+
+.main-heading h3 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 10px 0 50px;
+}
+
+.main-heading button {
+  width: 20%;
+  padding: 24px 2px;
+  border-radius: 4px;
+  border-style: solid;
+  background-color: transparent;
+  border-color: white;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  transition: all 0.5s ease-in-out;
+}
+
+.main-heading button:hover {
+  color: rgb(32, 109, 182);
+  background-color: white;
+  cursor: pointer;
+}
