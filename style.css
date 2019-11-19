@@ -188,7 +188,7 @@ hr {
 /* recent work */
 
 .recent-work-title {
-  background-color: #20B6B4;
+  background-color: #2F87DA;
   color: white;
   text-align: center;
 }
@@ -278,8 +278,8 @@ hr {
 .about-me-title {
   width: 100%;
   height: 100%;
-  background-color: #20B6B4d9;
-  color: rgb(58, 58, 58);
+  background-color: #2F87DAcc;
+  color: white;
   flex-direction: column;
   justify-content: center;
 }
@@ -295,6 +295,73 @@ hr {
   font-weight: 300;
   line-height: 22px;
   padding: 15px;
+}
+
+/* contact */
+
+.contact {
+  text-align: center;
+  background-color: #D74508;
+  color: white;
+}
+
+.contact-title h2 {
+  font-size: 35px;
+  padding: 35px 0 30px;
+}
+
+.contact-title h4 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 5px 15px 30px;
+}
+
+.contact > a {
+  text-decoration-line: none;
+  width: 80%;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 auto 50px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact > a:hover {
+  background-color: white;
+  color: #D74508;
+}
+
+.contact > a i {
+  font-size: 24px;
+}
+
+.contact a span {
+  flex-grow: 1;
+}
+
+.contact ul {
+  padding-bottom: 20px;
+  margin: 0 15px;
+}
+
+.contact ul li {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contact ul li a {
+  text-decoration-line: none;
+  color: white;
+}
+
+.contact .last-contact-item {
+  border: none;
 }
 
 
