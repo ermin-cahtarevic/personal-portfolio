@@ -57,7 +57,7 @@ main {
 }
 
 .bg-cover {
-  background: url(/images/big-bg.jpg) 50% 45% no-repeat fixed;
+  background: url("/images/big-bg.jpg") 50% 45% no-repeat fixed;
   background-size: 100%;
 }
 
