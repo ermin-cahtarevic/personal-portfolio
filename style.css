@@ -370,6 +370,8 @@ footer {
   background-color: #252525;
   width: 100%;
   flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
 }
 
 footer div {
@@ -377,7 +379,9 @@ footer div {
 }
 
 footer div p {
-  font-size: 14px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
   color: rgba(255, 255, 255, 0.2);
 }
 
@@ -392,6 +396,57 @@ footer div p a:hover {
   border-bottom: 1px solid rgb(32, 109, 182);
 }
 
+footer > a {
+  width: 70%;
+  margin: 5px 0 15px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  text-decoration-line: none;
+  transition: all 0.5s ease-in-out;
+}
+
+footer a.btn-1 i,
+footer a.btn-2 i {
+  font-size: 25px;
+  transition: all 0.5s ease-in-out;
+}
+
+i.twitter {
+  color: #00aced;
+}
+
+i.github {
+  color: #fff;
+}
+
+footer a.btn-1:hover {
+  background-color: #00aced;
+  color: white;
+  cursor: pointer;
+}
+
+footer a.btn-2:hover {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+footer a.btn-1:hover i.twitter {
+  color: white;
+}
+
+footer a.btn-2:hover i.github {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer > a span {
+  flex-grow: 1;
+  align-self: center;
+  text-align: center;
+  font-size: 14px;
+}
 
 
 
