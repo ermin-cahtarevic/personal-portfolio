@@ -23,7 +23,7 @@ header {
   top: 0;
   height: 100px;
   padding: 0 20px;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   z-index: 150;
 }
@@ -58,7 +58,6 @@ header {
   cursor: pointer;
   opacity: 0;
   z-index: 2;
-  -webkit-touch-callout: none;
 }
 
 #menu-toggle span {
