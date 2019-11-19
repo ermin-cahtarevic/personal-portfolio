@@ -111,6 +111,7 @@ header {
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom-right-radius: 6px;
 }
 
 #menu li {
