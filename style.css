@@ -364,6 +364,35 @@ hr {
   border: none;
 }
 
+/* footer */
+
+footer {
+  background-color: #252525;
+  width: 100%;
+  flex-direction: column;
+}
+
+footer div {
+  padding: 30px;
+}
+
+footer div p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+footer div p a {
+  text-decoration-line: none;
+  color: rgb(32, 109, 182);
+  transition: all 0.5s ease-in-out, 1s;
+  border-bottom: 1px solid transparent;
+}
+
+footer div p a:hover {
+  border-bottom: 1px solid rgb(32, 109, 182);
+}
+
+
 
 
 @media only screen and (min-width: 720px) {
