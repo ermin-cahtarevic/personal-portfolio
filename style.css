@@ -187,11 +187,8 @@ hr {
 
 /* recent work */
 
-.recent-work {
-  background-color: #20B6B4;
-}
-
 .recent-work-title {
+  background-color: #20B6B4;
   color: white;
   text-align: center;
 }
@@ -205,12 +202,13 @@ hr {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   font-weight: 300;
+  padding-bottom: 30px;
 }
 
 .recent-work-projects {
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px 0;
+  padding: 10px 0 20px;
 }
 
 .recent-work-projects a {
@@ -268,7 +266,36 @@ hr {
 
 }
 
+/* about me */
 
+.about-me {
+  text-align: center;
+  background-image: url(images/about-bg.jpg);
+  background-size: 100%;
+  height: 485px;
+}
+
+.about-me-title {
+  width: 100%;
+  height: 100%;
+  background-color: #20B6B4d9;
+  color: rgb(58, 58, 58);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me-title h2 {
+  font-size: 35px;
+  padding-bottom: 60px;
+}
+
+.about-me-title p {
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 15px;
+}
 
 
 
