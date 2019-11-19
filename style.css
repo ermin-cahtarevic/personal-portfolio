@@ -15,6 +15,7 @@
   position: fixed;
   background-color: white;
   width: 100%;
+  z-index: 999;
 }
 
 .navbar > div a {
@@ -182,6 +183,89 @@ hr {
 .project-img img {
   padding-top: 20px;
   width: 100%;
+}
+
+/* recent work */
+
+.recent-work {
+  background-color: #20B6B4;
+}
+
+.recent-work-title {
+  color: white;
+  text-align: center;
+}
+
+.recent-work-title h2 {
+  font-size: 35px;
+  padding: 25px 0 30px;
+}
+
+.recent-work-title h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.recent-work-projects {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.recent-work-projects a {
+  min-width: calc(50% - 20px);
+  margin: 10px;
+  position: relative;
+  text-decoration-line: none;
+}
+
+.recent-work-bg-img {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.r-w-bg-1 {
+  background-image: url(images/newsweek.png);
+}
+
+.r-w-bg-2 {
+  background-image: url(images/the-next-web.png);
+}
+
+.r-w-bg-3 {
+  background-image: url(images/ny-times-article.png);
+}
+
+.r-w-bg-4 {
+  background-image: url(images/apple-homepage.png);
+}
+
+.r-w-bg-5 {
+  background-image: url(images/jancis-robinson.png);
+}
+
+.r-w-bg-text {
+  background-color: rgba(19, 36, 35, 0.9);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.r-w-bg-text:hover {
+  background-color: transparent;
+  color: transparent;
+
 }
 
 
