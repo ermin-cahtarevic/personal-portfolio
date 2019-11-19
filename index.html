@@ -11,17 +11,20 @@
 </head>
 <body>
   <header>
-    <nav class="navbar flex">
-        <div><a href="#">ERMIN CAHTAREVIC</a></div>
-        <ul class="flex navbar-list">
-          <li><a href="">PORTFOLIO</a></li>
-          <li><a href="">RECENT WORK</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">CONTACT</a></li>
-        </ul>
-        <div class="hamburger">
-          <button><i class="fa fa-bars"></i></button>
+    <nav class="navbar flex" role="navigation">
+        <div id="menu-toggle">
+          <input type="checkbox">
+          <span class="span-1"></span>
+          <span class="span-2"></span>
+          <span class="span-3"></span>
+          <ul class="navbar-list" id="menu">
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#recent-work">RECENT WORK</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
         </div>
+        <div class="logo"><a href="#">ERMIN CAHTAREVIC</a></div>
     </nav>
   </header>
   <main>
@@ -29,7 +32,8 @@
       <section class="main-heading flex">
           <h1>ERMIN CAHTAREVIC</h1>
           <h3>Student Full-Stack Developer</h3>
-          <button>CHECK MY WORK</button>
+          <a href="#portfolio" class="check-my-work">CHECK MY WORK</a>
+          <div id="portfolio"></div>
       </section>
     </div>
     <section class="portfolio flex">
@@ -85,7 +89,7 @@
           <img src="http://www.pavelhuza.com/images/portfolio/mujjo-large.jpg" alt="project 4">
         </div>
       </div>
-      <div class="project">
+      <div class="project last-project">
         <div>
           <h3>Project</h3>
           <hr>
@@ -96,6 +100,7 @@
         <div class="project-img">
           <img src="http://www.pavelhuza.com/images/portfolio/heureka-mobile-large.jpg" alt="project 5">
         </div>
+        <div id="recent-work"></div>
       </div>
     </section>
     <section class="recent-work">
@@ -123,6 +128,7 @@
         <a href="https://rawcdn.githack.com/mcastorena0316/jancis-robinson/a93213971491e6be7267497399b4e13ae9134eeb/index.html">
           <div class="recent-work-bg-img r-w-bg-5"></div>
           <div class="r-w-bg-text flex"><span>Jancis Robinson Hompepage Clone</span></div>
+          <div id="about"></div>
         </a>
       </div>
     </section>
@@ -131,6 +137,7 @@
         <h2>ABOUT ME</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, vero. Distinctio optio aut sint, dolores velit, accusantium nesciunt sed beatae officia repudiandae id ea enim mollitia autem similique? Eaque, id.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nobis officiis deleniti ipsa harum error at pariatur perferendis veniam.</p>
+        <div id="contact"></div>
       </div>
     </section>
     <section class="contact">
