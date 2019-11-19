@@ -523,33 +523,3 @@ footer > a span {
   text-align: center;
   font-size: 14px;
 }
-
-
-
-@media only screen and (min-width: 720px) {
-  .navbar ul {
-    align-items: center;
-    height: 100px;
-  }
-
-  .navbar-list li {
-    height: 100%;
-  }
-  
-  .navbar-list li a {
-    display: block;
-    padding: 41px 28px 42px;
-    text-decoration-line: none;
-    color: rgb(32, 109, 182);
-    font-size: 14px;
-    font-weight: 700;
-  }
-
-  .navbar-list li a:hover {
-    border-bottom: 3px solid rgb(32, 109, 182);
-  }
-
-  .hamburger {
-    display: none;
-  }
-}
