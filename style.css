@@ -763,5 +763,147 @@ footer div.footer-btn-wrapper a span {
 
   .bg-cover {
     background-position: 100% 30%;
+    height: 700px;
+  }
+
+  .main-heading {
+    height: 100%;
+  }
+
+  .main-heading h1 {
+    font-size: 65px;
+  }
+
+  .main-heading h3 {
+    font-size: 35px;
+  }
+
+  .project {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    padding: 50px 0;
+  }
+
+  .project-text-btn {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0 30px 0 40px;
+  }
+
+  .project-text-btn h3,
+  .project-text-btn .project-text {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .project-text-btn hr {
+    margin: 25px 0 30px 10px;
+    width: 135px;
+  }
+
+  div.btn-wrapper {
+    justify-content: center;
+  }
+
+  div.btn-wrapper a {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+
+  .project-img {
+    max-width: 65%;
+  }
+
+  .recent-work-title {
+    padding: 30px 0;
+  }
+
+  .recent-work-title h2 {
+    font-size: 40px;
+  }
+
+  .recent-work-title h4 {
+    font-size: 22px;
+  }
+
+  .recent-work-projects a {
+    min-width: calc(20% - 20px);
+  }
+
+  .about-me-title {
+    padding: 0 40px;
+  }
+
+  .about-me-title p {
+    font-size: 22px;
+  }
+
+  .contact {
+    padding: 50px 0;
+  }
+
+  .contact-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-title h2,
+  .contact-title h2 {
+    font-size: 40px;
+  }
+
+  .contact-title h4 {
+    font-size: 22px;
+    width: 60%;
+  }
+
+  .contact > a {
+    width: 30%;
+    margin-top: 30px;
+  }
+
+  .contact ul {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0 50px;
+  }
+
+  .contact ul li {
+    border-bottom: none;
+    padding: 0 25px;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .contact ul li a {
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .contact ul li a:hover {
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .contact ul li.last-contact-item {
+    border-right: none;
+  }
+
+  footer {
+    padding: 50px 0;
+  }
+
+  footer div.footer-btn-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+  }
+
+  footer div.footer-btn-wrapper a {
+    width: 45%;
+    margin: 10px;
   }
 }
