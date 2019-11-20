@@ -24,7 +24,7 @@ header {
   height: 100px;
   padding: 0 15px 0 10px;
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(214, 214, 214, 0.5);
   z-index: 150;
 }
 
@@ -206,7 +206,7 @@ main {
 
 .project {
   padding: 30px 10px;
-  border-top: 1px solid rgb(240, 240, 240);
+  border-top: 1px solid rgba(214, 214, 214, 0.5);
 }
 
 .project div h3 {
@@ -585,5 +585,183 @@ footer div.footer-btn-wrapper a span {
   footer div.footer-btn-wrapper a {
     width: 45%;
     margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  #menu-toggle input,
+  #menu-toggle span {
+    display: none;
+  }
+
+  .navbar div.logo {
+    order: 1;
+    padding-left: 20px;
+  }
+
+  #menu-toggle {
+    order: 2;
+    left: 0;
+    height: 100%;
+  }
+
+  #menu {
+    position: initial;
+    display: flex;
+    width: auto;
+    transform: none;
+    transform-origin: unset;
+    transition: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    height: 100%;
+    align-items: center;
+  }
+
+  #menu li {
+    height: 100px;
+    padding: 0;
+    font-size: 17px;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 3px solid transparent;
+    display: flex;
+  }
+  
+  #menu li a {
+    align-self: center;
+    padding: 43px 20px 38px;
+    height: 100%;
+  }
+
+  #menu li:hover,
+  #menu li a:focus {
+    border-bottom-color: rgb(32, 109, 182);
+  }
+
+  .main-heading a.check-my-work {
+    width: 30%;
+  }
+
+  div.btn-wrapper {
+    justify-content: center;
+  }
+
+  div.btn-wrapper a {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .project-img img {
+    width: 80%;
+  }
+
+  .recent-work-projects a {
+    min-width: calc(50% - 20px);
+  }
+
+  .contact > a {
+    width: 30%;
+    margin-top: 30px;
+  }
+
+  .contact ul {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0 50px;
+  }
+
+  .contact ul li {
+    border-bottom: none;
+    padding: 0 25px;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .contact ul li a {
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .contact ul li a:hover {
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .contact ul li.last-contact-item {
+    border-right: none;
+  }
+
+  footer div.footer-btn-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+  }
+
+  footer div.footer-btn-wrapper a {
+    width: 45%;
+    margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #menu-toggle input,
+  #menu-toggle span {
+    display: none;
+  }
+
+  .navbar div.logo {
+    order: 1;
+    padding-left: 20px;
+  }
+
+  #menu-toggle {
+    order: 2;
+    left: 0;
+    height: 100%;
+  }
+
+  #menu {
+    position: initial;
+    display: flex;
+    width: auto;
+    transform: none;
+    transform-origin: unset;
+    transition: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    height: 100%;
+    align-items: center;
+  }
+
+  #menu li {
+    height: 100px;
+    padding: 0;
+    font-size: 17px;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 3px solid transparent;
+    display: flex;
+  }
+  
+  #menu li a {
+    align-self: center;
+    padding: 43px 20px 38px;
+    height: 100%;
+  }
+
+  #menu li:hover,
+  #menu li a:focus {
+    border-bottom-color: rgb(32, 109, 182);
+  }
+
+  .main-heading a.check-my-work {
+    width: 30%;
+  }
+
+  .bg-cover {
+    background-position: 100% 30%;
   }
 }
