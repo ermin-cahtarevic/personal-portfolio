@@ -28,11 +28,45 @@ header {
   z-index: 150;
 }
 
+.recent-work-projects a {
+  min-width: calc(100% - 20px);
+  margin: 10px;
+  position: relative;
+  text-decoration-line: none;
+}
+
+.contact > a {
+  text-decoration-line: none;
+  width: 80%;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 auto 50px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
 .navbar > div a {
   text-decoration-line: none;
   font-size: 15px;
   color: rgb(32, 109, 182);
   font-weight: 700;
+}
+
+div.btn-wrapper a {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  padding: 15px 0;
+  border-radius: 4px;
+  color: rgb(32, 109, 182);
+  border: 2px solid rgb(32, 109, 182);
+  text-decoration-line: none;
+  font-size: 14px;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar .logo a {
@@ -60,6 +94,10 @@ header {
   z-index: 2;
 }
 
+.contact a span {
+  flex-grow: 1;
+}
+
 #menu-toggle span {
   display: block;
   width: 33px;
@@ -69,10 +107,11 @@ header {
   background: rgb(32, 109, 182);
   border-radius: 3px;
   z-index: 1;
-  transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;            
+  transform-origin: 4px;
+  transition:
+    transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    opacity 0.55s ease;
 }
 
 #menu-toggle .span-1 {
@@ -108,7 +147,7 @@ header {
   list-style-type: none;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  transition: 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom-right-radius: 6px;
@@ -231,17 +270,9 @@ div.btn-wrapper {
   flex-wrap: wrap;
 }
 
-div.btn-wrapper a {
-  display: block;
-  margin: 10px auto;
-  width: 80%;
-  padding: 15px 0;
-  border-radius: 4px;
-  color: rgb(32, 109, 182);
-  border: 2px solid rgb(32, 109, 182);
-  text-decoration-line: none;
-  font-size: 14px;
-  transition: all 0.5s ease-in-out;
+.contact > a:hover {
+  background-color: white;
+  color: #d74508;
 }
 
 div.btn-wrapper a:hover {
@@ -261,7 +292,7 @@ div.btn-wrapper a:hover {
 /* recent work */
 
 .recent-work-title {
-  background-color: #2F87DA;
+  background-color: #2f87da;
   color: white;
   text-align: center;
 }
@@ -282,13 +313,6 @@ div.btn-wrapper a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px 0 20px;
-}
-
-.recent-work-projects a {
-  min-width: calc(100% - 20px);
-  margin: 10px;
-  position: relative;
-  text-decoration-line: none;
 }
 
 .recent-work-bg-img {
@@ -337,7 +361,6 @@ div.btn-wrapper a:hover {
 .r-w-bg-text:hover {
   background-color: transparent;
   color: transparent;
-
 }
 
 /* about me */
@@ -352,7 +375,7 @@ div.btn-wrapper a:hover {
 .about-me-title {
   width: 100%;
   height: 100%;
-  background-color: #2F87DAcc;
+  background-color: #2f87dacc;
   color: white;
   flex-direction: column;
   justify-content: center;
@@ -375,7 +398,7 @@ div.btn-wrapper a:hover {
 
 .contact {
   text-align: center;
-  background-color: #D74508;
+  background-color: #d74508;
   color: white;
 }
 
@@ -392,31 +415,8 @@ div.btn-wrapper a:hover {
   padding: 5px 15px 30px;
 }
 
-.contact > a {
-  text-decoration-line: none;
-  width: 80%;
-  background-color: transparent;
-  color: white;
-  font-size: 18px;
-  border: 2px solid white;
-  border-radius: 4px;
-  padding: 20px;
-  margin: 0 auto 50px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-}
-
-.contact > a:hover {
-  background-color: white;
-  color: #D74508;
-}
-
 .contact > a i {
   font-size: 24px;
-}
-
-.contact a span {
-  flex-grow: 1;
 }
 
 .contact ul {
@@ -629,7 +629,7 @@ footer div.footer-btn-wrapper a span {
     border-bottom: 3px solid transparent;
     display: flex;
   }
-  
+
   #menu li a {
     align-self: center;
     padding: 43px 20px 38px;
@@ -745,7 +745,7 @@ footer div.footer-btn-wrapper a span {
     border-bottom: 3px solid transparent;
     display: flex;
   }
-  
+
   #menu li a {
     align-self: center;
     padding: 43px 20px 38px;
