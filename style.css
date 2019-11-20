@@ -22,8 +22,8 @@ header {
   background-color: white;
   top: 0;
   height: 100px;
-  padding: 0 20px;
-  width: 100vw;
+  padding: 0 15px 0 10px;
+  width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   z-index: 150;
 }
@@ -157,7 +157,7 @@ main {
   padding: 10px 0 50px;
 }
 
-.main-heading a {
+.main-heading a.check-my-work {
   width: 80%;
   padding: 24px 2px;
   border-radius: 4px;
@@ -171,7 +171,7 @@ main {
   transition: all 0.5s ease-in-out;
 }
 
-.main-heading a:hover {
+.main-heading a.check-my-work:hover {
   color: rgb(32, 109, 182);
   background-color: white;
   cursor: pointer;
@@ -227,10 +227,13 @@ hr {
   padding-bottom: 25px;
 }
 
-.project div a,
-.project div button {
+div.btn-wrapper {
+  flex-wrap: wrap;
+}
+
+div.btn-wrapper a {
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
   width: 80%;
   padding: 15px 0;
   border-radius: 4px;
@@ -241,13 +244,7 @@ hr {
   transition: all 0.5s ease-in-out;
 }
 
-.project div button {
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.project div a:hover,
-.project div button:hover {
+div.btn-wrapper a:hover {
   background-color: rgb(32, 109, 182);
   color: white;
 }
@@ -288,16 +285,17 @@ hr {
 }
 
 .recent-work-projects a {
-  min-width: calc(50% - 20px);
+  min-width: calc(100% - 20px);
   margin: 10px;
   position: relative;
   text-decoration-line: none;
 }
 
 .recent-work-bg-img {
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: top;
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -472,9 +470,14 @@ footer div p a:hover {
   border-bottom: 1px solid rgb(32, 109, 182);
 }
 
-footer > a {
+footer div.footer-btn-wrapper {
+  flex-direction: column;
+  width: 100%;
+}
+
+footer div.footer-btn-wrapper a {
   width: 70%;
-  margin: 5px 0 15px;
+  margin: 5px auto 15px;
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.2);
   color: rgba(255, 255, 255, 0.2);
@@ -517,9 +520,70 @@ footer a.btn-2:hover i.github {
   color: rgba(0, 0, 0, 0.6);
 }
 
-footer > a span {
+footer div.footer-btn-wrapper a span {
   flex-grow: 1;
   align-self: center;
   text-align: center;
   font-size: 14px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .main-heading a.check-my-work {
+    width: 30%;
+  }
+
+  div.btn-wrapper {
+    justify-content: center;
+  }
+
+  div.btn-wrapper a {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .project-img img {
+    width: 80%;
+  }
+
+  .recent-work-projects a {
+    min-width: calc(50% - 20px);
+  }
+
+  .contact > a {
+    width: 40%;
+  }
+
+  .contact ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact ul li {
+    border-bottom: none;
+    padding: 0 15px;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .contact ul li a {
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .contact ul li a:hover {
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .contact ul li.last-contact-item {
+    border-right: none;
+  }
+
+  footer div.footer-btn-wrapper {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer div.footer-btn-wrapper a {
+    width: 45%;
+    margin: 10px;
+  }
 }
