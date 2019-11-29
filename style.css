@@ -12,7 +12,7 @@ html {
 /* navigation bar */
 
 header {
-  position: relative;
+  position: fixed;
 }
 
 .navbar {
@@ -184,8 +184,8 @@ main {
 
 .main-heading h1 {
   color: white;
-  font-size: 60px;
-  padding: 30px;
+  font-size: 3rem;
+  padding: 30px 0;
 }
 
 .main-heading h3 {
