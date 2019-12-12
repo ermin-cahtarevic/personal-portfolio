@@ -13,6 +13,7 @@ html {
 
 header {
   position: fixed;
+  z-index: 9999;
 }
 
 .navbar {
@@ -25,7 +26,6 @@ header {
   padding: 0 15px 0 10px;
   width: 100%;
   border-bottom: 1px solid rgba(214, 214, 214, 0.5);
-  z-index: 150;
 }
 
 .recent-work-projects a {
