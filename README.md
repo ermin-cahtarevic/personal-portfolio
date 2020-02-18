@@ -3,7 +3,7 @@
  The Live Version - [Portfolio](https://ermin.dev/)
 
  ## Home page
- ![Homepage](/screenshots/portfolio.png?raw=true "Homepage")
+ ![Homepage](/images/portfolio.png?raw=true "Homepage")
 
 ## Built With
 
