@@ -17,6 +17,7 @@
 - Github: [@ermin-cahtarevic](https://github.com/ermin-cahtarevic)
 - Linkedin: [ermincahtarevic](https://www.linkedin.com/in/ermincahtarevic/)
 - Twitter: [@ErminCahtarevic](https://twitter.com/ErminCahtarevic)
+- Portfolio: [ermin.dev](https://ermin.dev)
 
 ## 🤝 Contributing
 
