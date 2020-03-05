@@ -293,7 +293,7 @@ div.skills > div {
   display: inline-block;
   border: 2px solid rgb(32, 109, 182);
   border-radius: 4px;
-  padding: 5px;
+  padding: 5px 6px;
   margin: 5px;
   color: rgb(32, 109, 182);
   font-size: 15px;
