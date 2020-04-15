@@ -339,11 +339,11 @@ div.skills > div {
 }
 
 .r-w-bg-1 {
-  background-image: url(images/newsweek.png);
+  background-image: url(images/restaurant.png);
 }
 
 .r-w-bg-2 {
-  background-image: url(images/the-next-web.png);
+  background-image: url(images/tictactoe.png);
 }
 
 .r-w-bg-3 {
@@ -351,7 +351,7 @@ div.skills > div {
 }
 
 .r-w-bg-4 {
-  background-image: url(images/apple-homepage.png);
+  background-image: url(images/the-next-web.png);
 }
 
 .r-w-bg-5 {
@@ -478,12 +478,12 @@ footer div p {
 footer div p a {
   text-decoration-line: none;
   color: rgb(32, 109, 182);
-  transition: all 0.5s ease-in-out, 1s;
-  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid rgb(32, 109, 182);
 }
 
 footer div p a:hover {
-  border-bottom: 1px solid rgb(32, 109, 182);
+  padding-bottom: 2px;
 }
 
 footer div.footer-btn-wrapper {
@@ -696,12 +696,12 @@ footer div.footer-btn-wrapper a span {
   }
 
   .contact ul li a {
-    border-bottom: 1px solid transparent;
-    transition: all 0.5s ease-in-out;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease-in-out;
   }
 
   .contact ul li a:hover {
-    border-bottom-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 2px;
   }
 
   .contact ul li.last-contact-item {
