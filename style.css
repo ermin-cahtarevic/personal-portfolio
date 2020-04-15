@@ -897,12 +897,12 @@ footer div.footer-btn-wrapper a span {
   }
 
   .contact ul li a {
-    border-bottom: 1px solid transparent;
-    transition: all 0.5s ease-in-out;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease-in-out;
   }
 
   .contact ul li a:hover {
-    border-bottom-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 2px;
   }
 
   .contact ul li.last-contact-item {
