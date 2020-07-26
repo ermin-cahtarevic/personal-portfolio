@@ -10,6 +10,25 @@
 - HTML
 - CSS3
 
+### Get a local copy
+
+**Clone the repository by running this command in your terminal**
+```
+git clone git@github.com:ermin-cahtarevic/personal-portfolio.git
+```
+
+**Navigate into the newly created folder**
+```
+cd personal-portfolio
+```
+
+**Open the index.html file in your browser to see the website** 
+
+**Tests**
+
+Tests have not been added yet, they are something that should be added eventually
+
+
 ## Author
 
 👤 **Ermin Cahtarevic**
