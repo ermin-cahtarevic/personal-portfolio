@@ -22,6 +22,7 @@ header {
   position: fixed;
   background-color: white;
   top: 0;
+  left: 0;
   height: 100px;
   padding: 0 15px 0 10px;
   width: 100%;
@@ -339,19 +340,19 @@ div.skills > div {
 }
 
 .r-w-bg-1 {
-  background-image: url(images/newsweek.png);
+  background-image: url(images/welcome-scene.png);
 }
 
 .r-w-bg-2 {
-  background-image: url(images/the-next-web.png);
+  background-image: url(images/react-calculator.png);
 }
 
 .r-w-bg-3 {
-  background-image: url(images/ny-times-article.png);
+  background-image: url(images/weather-app-desktop.png);
 }
 
 .r-w-bg-4 {
-  background-image: url(images/apple-homepage.png);
+  background-image: url(images/fakebook-desktop.png);
 }
 
 .r-w-bg-5 {
@@ -384,17 +385,18 @@ div.skills > div {
   text-align: center;
   background-image: url(images/about-bg.jpg);
   background-size: 100%;
-  height: 485px;
+  min-height: 485px;
 }
 
 .about-me-title {
   width: 100%;
-  height: 100%;
+  height: inherit;
   background-color: #2f87dae6;
   color: white;
   flex-direction: column;
   justify-content: center;
   line-height: 1.3;
+  padding: 20px 0;
 }
 
 .about-me-title h2 {
@@ -478,12 +480,12 @@ footer div p {
 footer div p a {
   text-decoration-line: none;
   color: rgb(32, 109, 182);
-  transition: all 0.5s ease-in-out, 1s;
-  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid rgb(32, 109, 182);
 }
 
 footer div p a:hover {
-  border-bottom: 1px solid rgb(32, 109, 182);
+  padding-bottom: 2px;
 }
 
 footer div.footer-btn-wrapper {
@@ -563,6 +565,14 @@ footer div.footer-btn-wrapper a span {
 
   .recent-work-projects a {
     min-width: calc(50% - 20px);
+  }
+
+  .about-me {
+    min-height: 485px;
+  }
+
+  .about-me-title {
+    padding: 20px 0;
   }
 
   .contact > a {
@@ -678,6 +688,10 @@ footer div.footer-btn-wrapper a span {
     min-width: calc(50% - 20px);
   }
 
+  .about-me {
+    height: 485px;
+  }
+
   .contact > a {
     width: 30%;
     margin-top: 30px;
@@ -696,12 +710,12 @@ footer div.footer-btn-wrapper a span {
   }
 
   .contact ul li a {
-    border-bottom: 1px solid transparent;
-    transition: all 0.5s ease-in-out;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease-in-out;
   }
 
   .contact ul li a:hover {
-    border-bottom-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 2px;
   }
 
   .contact ul li.last-contact-item {
@@ -850,6 +864,10 @@ footer div.footer-btn-wrapper a span {
     min-width: calc(20% - 20px);
   }
 
+  .about-me {
+    height: 485px;
+  }
+
   .about-me-title {
     padding: 0 40px;
   }
@@ -897,12 +915,12 @@ footer div.footer-btn-wrapper a span {
   }
 
   .contact ul li a {
-    border-bottom: 1px solid transparent;
-    transition: all 0.5s ease-in-out;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease-in-out;
   }
 
   .contact ul li a:hover {
-    border-bottom-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 2px;
   }
 
   .contact ul li.last-contact-item {
