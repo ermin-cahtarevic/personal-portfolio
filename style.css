@@ -22,6 +22,7 @@ header {
   position: fixed;
   background-color: white;
   top: 0;
+  left: 0;
   height: 100px;
   padding: 0 15px 0 10px;
   width: 100%;
@@ -339,19 +340,19 @@ div.skills > div {
 }
 
 .r-w-bg-1 {
-  background-image: url(images/restaurant.png);
+  background-image: url(images/welcome-scene.png);
 }
 
 .r-w-bg-2 {
-  background-image: url(images/tictactoe.png);
+  background-image: url(images/react-calculator.png);
 }
 
 .r-w-bg-3 {
-  background-image: url(images/ny-times-article.png);
+  background-image: url(images/weather-app-desktop.png);
 }
 
 .r-w-bg-4 {
-  background-image: url(images/the-next-web.png);
+  background-image: url(images/fakebook-desktop.png);
 }
 
 .r-w-bg-5 {
@@ -384,17 +385,18 @@ div.skills > div {
   text-align: center;
   background-image: url(images/about-bg.jpg);
   background-size: 100%;
-  height: 485px;
+  min-height: 485px;
 }
 
 .about-me-title {
   width: 100%;
-  height: 100%;
+  height: inherit;
   background-color: #2f87dae6;
   color: white;
   flex-direction: column;
   justify-content: center;
   line-height: 1.3;
+  padding: 20px 0;
 }
 
 .about-me-title h2 {
@@ -565,6 +567,14 @@ footer div.footer-btn-wrapper a span {
     min-width: calc(50% - 20px);
   }
 
+  .about-me {
+    min-height: 485px;
+  }
+
+  .about-me-title {
+    padding: 20px 0;
+  }
+
   .contact > a {
     width: 40%;
   }
@@ -676,6 +686,10 @@ footer div.footer-btn-wrapper a span {
 
   .recent-work-projects a {
     min-width: calc(50% - 20px);
+  }
+
+  .about-me {
+    height: 485px;
   }
 
   .contact > a {
@@ -848,6 +862,10 @@ footer div.footer-btn-wrapper a span {
 
   .recent-work-projects a {
     min-width: calc(20% - 20px);
+  }
+
+  .about-me {
+    height: 485px;
   }
 
   .about-me-title {
